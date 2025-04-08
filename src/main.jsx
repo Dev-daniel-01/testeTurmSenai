@@ -1,12 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 import {createBrowserRouter, RouterProvider} from "react-router";
+
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
 
 import './index.css'
 import App from './App.jsx'
 import Contact from './Contact.jsx';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 const router = createBrowserRouter([
   {
