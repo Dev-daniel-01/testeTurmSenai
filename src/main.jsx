@@ -12,6 +12,7 @@ import Contact from './Contact.jsx';
 import Calcs from './calcs.jsx';
 import Media from './Media.jsx';
 import Imc from './Imc.jsx';
+import Req from './Req.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -38,7 +39,12 @@ const router = createBrowserRouter([
   {
     path: "/imc",
     element: <Imc/>,
+  },
+  {
+    path: "/requisicao",
+    element: <Req/>,
   }
+
 
 
 ]);

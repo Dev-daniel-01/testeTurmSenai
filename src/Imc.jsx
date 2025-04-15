@@ -40,7 +40,6 @@ export default function Imc() {
           <button onClick={calcularIMC}>Calcular</button>
           {isNaN(respImc) ? ("Digite valores válidos") : 
           (<> <br /> IMC: {respImc.toFixed(2)} <br /> {interpretarIMC(respImc)} </> )}
-
         </p>
       </div>
     </>
